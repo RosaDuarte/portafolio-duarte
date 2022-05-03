@@ -70,7 +70,7 @@ html{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-image: url(/assets/image/IMG_20210824_104110_979.jpg);
+    background-image: url(/assets/image/foto.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -90,7 +90,7 @@ html{
 .header-container .navbar-brand .image{
     width: 60px;
     height: 60px;
-    background-image: url(/assets/image/Beige\ and\ Black\ Simple\ &\ Circular\ Wedding\ Event\ Logo.png);
+    background-image: url(/assets/image/logo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
