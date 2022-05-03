@@ -1,0 +1,45 @@
+:root{
+    --dark-blue: #526c7d;
+}
+.header-container{
+    height: 450px;
+}
+.is-flex{
+    width: 80%;
+}
+.header-container .navbar-menu .navbar-end .navbar-item a{
+    border-bottom: none;
+}
+.header-container .navbar-menu .navbar-end .navbar-item a:hover{
+    background-color: transparent;
+    color: var(--dark-blue);
+    transition: color 1s;
+}
+.header-container div .container-text{
+    margin-top: 0;
+    width: 75%;
+}
+.header-container div .container-text h1{
+    padding-bottom: 8px;
+}
+.header-container .is-flex{
+    flex-direction: row!important;
+    margin: 60px auto;
+}
+.technologies-container div:first-child{
+    width: 60%;
+}
+.proyects .proyects-container--slider{
+    display: flex;
+    /* justify-content: center; */
+    min-width: 250px;
+    max-width: 800px;
+    scrollbar-width: none;
+    /* overflow: hidden; */
+    padding: 10px;
+    width: 70%;
+    /* overflow-x: scroll; */
+    overflow-x: hidden;
+    overscroll-behavior-x: contain;
+    /* scroll-snap-type: x proximity; */
+}
